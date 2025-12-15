@@ -1,57 +1,109 @@
-# Sales Analysis – Power BI Dashboard
+# Sales Analysis Dashboard | Power BI
 
-## Problem Statement
-Build an interactive sales intelligence dashboard to analyze revenue, profit, and sales behavior across time, geography, and product hierarchy, enabling data-driven business decisions.
+**End-to-End Business Intelligence Project**
+
+## Executive Summary
+
+This project delivers an interactive **sales intelligence dashboard** built in Power BI to help business stakeholders **track revenue, profitability, and sales behavior** across time, geography, and product hierarchy.
+
+The focus is not just visualization, but **data modeling, DAX logic, and insight generation** that supports real business decisions.
+
+---
+
+## Business Problem
+
+Sales leaders often struggle to answer:
+
+* Which products drive revenue vs. profit?
+* Which regions sell more but underperform on margins?
+* How does sales performance change over time?
+
+This dashboard solves these questions through **structured data modeling and dynamic analysis**, enabling stakeholders to move from raw data to actionable insights.
+
+---
 
 ## Data Preparation & Modeling
-- Performed data cleaning and transformation using Power Query
-- Implemented joins across multiple tables using appropriate join types
-- Designed a star-schema–like data model with fact and dimension tables
-- Established and managed table relationships with correct cardinality and filter direction
-- Validated data integrity after relationship modeling
+
+* Cleaned and transformed raw sales data using **Power Query**
+* Integrated multiple tables using appropriate **join strategies**
+* Designed a **star-schema-style data model** with fact and dimension tables
+* Configured relationships with correct **cardinality and filter direction**
+* Used **active and inactive relationships** to support advanced slicer behavior
+* Validated data consistency after modeling
+
+> **Key learning:** Relationship management and filter context had the biggest impact on analytical accuracy.
+
+---
 
 ## KPIs & DAX Measures
-- Created calculated measures using DAX for:
-  - Total Sales
-  - Total Profit
-  - Quantity Sold
-  - Profit Margin
-  - Time-based aggregations (monthly / yearly trends)
-- Used CALCULATE, FILTER, and aggregation functions for dynamic evaluation
-- Applied context-aware calculations responding to slicers and filters
 
-## Dashboard Features
-- Interactive slicers for:
-  - Date
-  - Region
-  - Category
-  - Sub-category
-- Dynamic cross-filtering between visuals
-- Drill-down and visual-level filtering for deeper analysis
-- Responsive KPIs and charts updating based on user selection
+Developed reusable, context-aware DAX measures including:
 
-## Visualizations
-- KPI cards for high-level metrics
-- Bar and column charts for category and regional comparison
-- Line charts for sales and profit trends over time
-- Contribution analysis using sorted visuals and percentage breakdowns
+* Total Sales
+* Total Profit
+* Quantity Sold
+* Profit Margin
+* Month-over-Month and Year-over-Year trends
 
-## Business Insights
-- Identified top-performing product categories driving the majority of revenue
-- Highlighted regions with high sales volume but low profitability
-- Observed seasonality patterns impacting monthly sales performance
+Key DAX concepts applied:
+
+* `CALCULATE`
+* Filter context manipulation
+* Time-intelligence patterns
+* Dynamic evaluation driven by slicers
+
+---
+
+## Dashboard Capabilities
+
+* Interactive slicers for **Date, Region, Category, and Sub-Category**
+* Cross-filtering across all visuals
+* Drill-down analysis for deeper exploration
+* KPI cards that update dynamically with user selections
+* Clean layout designed for **executive-level consumption**
+
+---
+
+## Key Business Insights
+
+* A small set of product categories contributes disproportionately to total revenue
+* Certain regions show **high sales volume but weak profitability**, indicating pricing or cost issues
+* Clear **seasonality trends** influence monthly sales performance
+* Profit behavior varies significantly even when revenue appears stable
+
+These insights enable **pricing strategy review, regional optimization, and demand planning**.
+
+---
 
 ## Tools & Technologies
-- Power BI Desktop
-- Power Query
-- DAX
-- Data Modeling & Relationships
-- Interactive Dashboards & Visual Analytics
 
-## Files
-- `sales.pbix` – Complete Power BI dashboard
+* **Power BI Desktop**
+* **Power Query**
+* **DAX**
+* Data Modeling & Relationship Design
+* Interactive Dashboards & Visual Analytics
 
-## How to Use
-1. Download the PBIX file
+---
+
+## Files Included
+
+* `sales.pbix` – Complete Power BI dashboard with data model and measures
+
+---
+
+## How to Review This Project
+
+1. Download the `sales.pbix` file
 2. Open in Power BI Desktop
-3. Interact using slicers and filters to explore insights
+3. Use slicers to explore trends, profitability, and regional performance
+4. Inspect the **data model and DAX measures** to understand design decisions
+
+---
+
+## What This Project Demonstrates
+
+* End-to-end BI workflow: **raw data → insights**
+* Strong understanding of **data modeling and DAX**
+* Ability to translate business questions into analytical solutions
+* Dashboard design focused on **decision-making**, not just visuals
+
